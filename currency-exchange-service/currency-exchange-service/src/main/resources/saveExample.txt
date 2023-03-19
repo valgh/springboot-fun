@@ -1,0 +1,1 @@
+curl -H "Accept: application/json" -H "Content-Type:application/json" -X POST --data '{"id": "10001", "from": "EUR", "to": "INR", "conversionMultiple": "25"}' http://localhost:8000/exchange/save
